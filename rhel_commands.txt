@@ -1,0 +1,19 @@
+cd /var/log/ 
+hostnamectl 
+cat /etc/hostname
+
+crontab -e
+    */1 * * * * /usr/bin/python3 /home/wojnaja/learning/test.py      << this will run the python3 script called test.py every minute 
+
+
+sudo vi ~/.bashrc 
+export HISTTIMEFORMAT="%F %T"
+
+source ~/.bashrc
+
+
+
+
+
+
+
